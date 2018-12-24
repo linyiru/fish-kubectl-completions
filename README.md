@@ -5,7 +5,7 @@
 ```fish
 $ mkdir -p ~/.config/fish/completions
 $ cd ~/.config/fish
-$ git clone https://github.com/evanlucas/fish-kubectl-completions
+$ git clone https://github.com/linyiru/fish-kubectl-completions
 $ ln -s ../fish-kubectl-completions/kubectl.fish completions/
 ```
 
