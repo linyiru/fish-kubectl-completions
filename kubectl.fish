@@ -29,7 +29,6 @@ set __kubectl_commands \
   port-forward         \
   proxy                \
   replace              \
-  rolling-update       \
   rollout              \
   run                  \
   run-container        \
@@ -558,10 +557,6 @@ __kubectl_complete_subcommand_flags proxy
 # replace
 complete -c kubectl -f -n '__fish_kubectl_needs_command' -a replace -d "Replace a resource by filename or stdin."
 __kubectl_complete_subcommand_flags replace
-
-# rolling-update
-complete -c kubectl -f -n '__fish_kubectl_needs_command' -a rolling-update -d "Perform a rolling update of the given ReplicationController."
-__kubectl_complete_subcommand_flags rolling-update
 
 # rollout
 complete -c kubectl -f -n '__fish_kubectl_needs_command' -a rollout -d "Manage rollout of a resource"
